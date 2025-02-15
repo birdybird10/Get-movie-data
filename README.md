@@ -1,4 +1,4 @@
-How to request data from the microservice:
+# How to request data from the microservice:
 
 A client must first create a ZeroMQ context, create a socket, and connect to the server:
 
@@ -21,7 +21,7 @@ After requesting the movie title, movie release-year, and data choice (plot, act
 The input received via the server will be parsed out to use each part of the string, being title, release-year, and data choice.
 
 
-How to receive data from the microservice:
+# How to receive data from the microservice:
 
 The data type provided by the microservice is a byte string containing movie data (either the plot, sorted actors list, or rating). The byte string can be read with socket.recv().decode(). An example call is:
 movie_data = socket.recv().decode()
