@@ -1,4 +1,12 @@
 How to request data from the microservice:
+A client must first create a ZeroMQ context, create a socket, and connect to the server:
+# Create a ZeroMQ context
+context = zmq.Context()
+
+# Create a socket and connect to server
+socket = context.socket(zmq.REQ)
+socket.connect("tcp://localhost:5557")  
+
 The request parameter for the microservice is a string containing 3 items separated by commas (no spaces). The string will contain the movie title, followed by the movie release-year, followed by the user’s data choice ('plot', 'actors', or 'rating'). An example request parameter is the following string:
 “Moana,2016,plot”
 Another example:
