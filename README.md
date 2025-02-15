@@ -25,3 +25,8 @@ The input received via the server will be parsed out to use each part of the str
 
 The data type provided by the microservice is a byte string containing movie data (either the plot, sorted actors list, or rating). The byte string can be read with socket.recv().decode(). An example call is:
 movie_data = socket.recv().decode()
+
+# UML Diagram:
+
+![Screen Shot 2025-02-15 at 16 11 38 PM](https://github.com/user-attachments/assets/d87ac6fe-8d0b-40a3-8b3a-11cb290eea25)
+
