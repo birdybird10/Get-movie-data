@@ -1,4 +1,5 @@
 How to request data from the microservice:
+
 A client must first create a ZeroMQ context, create a socket, and connect to the server:
 
 context = zmq.Context()
