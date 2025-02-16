@@ -28,5 +28,6 @@ movie_data = socket.recv().decode()
 
 # UML Diagram:
 
-![Screen Shot 2025-02-15 at 16 11 38 PM](https://github.com/user-attachments/assets/d87ac6fe-8d0b-40a3-8b3a-11cb290eea25)
+![Screen Shot 2025-02-15 at 18 18 52 PM](https://github.com/user-attachments/assets/dffa1217-6fc6-4852-b9b0-655d1f6c35f9)
+
 
