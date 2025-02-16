@@ -14,7 +14,7 @@ while True:
     dataChoice = input("Enter 'plot' to receive the movie plot, 'actors' to receive a sorted list of the movie's "
                         "actors, or 'rating' to receive the rating of the movie: ")
     print()
-    requested_data = movieTitle.lower() + "," + movieReleaseYear.lower().strip() + "," + dataChoice.lower().strip()
+    requested_data = movieTitle + "," + movieReleaseYear.strip() + "," + dataChoice.lower()
 
     # Send the requested data list
     socket.send_string(requested_data)
