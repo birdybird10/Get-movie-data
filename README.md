@@ -1,3 +1,5 @@
+*special note: the file demo_client.py is just for demonstration purposes, the actual microservice is server.py*
+
 # How to request data from the microservice:
 
 A client must first create a ZeroMQ context, create a socket, and connect to the server:
